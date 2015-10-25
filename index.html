@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>dayoho a personal website</title>
-	<link rel="stylesheet" type="text/css" href="base.css">
-</head>
-<body>
-	<h1>这是我第一个github网站</h1>
-	<p>我是一个刚学习前端的人，虽然年纪已经不小了，希望自己能够坚持。</p>
-	<p>现在也是从事跟网站相关的工作。网站外部推广<span>SEO</span></p>
-</body>
+<html>
+    <head>
+        <title>初识jQuery</title>
+        <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+        <div id="test">Hello iMooc!</div>
+        <button onclick="sayHello()">点我！</button>
+        
+        <script type="text/javascript">
+            function sayHello(){
+                $("#test").show();
+            }
+        </script>
+    </body>
 </html>
